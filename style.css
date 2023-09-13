@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'Press Start 2P', cursive;
+    src: url("/fonts/PressStart2P-Regular.ttf");
+}
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 50px; 
+}
+
+ h2, h3 {
+    font-family: 'Playfair Display', serif;;
+    color:rgba(169, 153, 211, 0.76);
+}
+
+.recipe {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.ingredients {
+    float: left;
+    width: 45%;
+}
+
+.recipe-text {
+    float: left;
+    width: 45%;
+}
+
+.recipe-image {
+    width: 50%;
+    float: right;
+}
+
+.recipe-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.footer {
+    margin-right: 30px; 
+    margin-top: 30px;
+}
+
+/* CSS для класу icon-section */
+.icon-section1 {
+    clear: both;
+    margin-top: 40px;
+    font-size: 50px;
+    float: left;
+    margin-right: 10px;
+    color: rgb(184, 226, 45);
+    text-shadow: 0 0 20px rgb(226, 190, 45);
+}
+
+
+/* CSS для класу .icon-section2  */
+.icon-section2,
+.footer p {
+    display: inline-block;
+    vertical-align: middle; /* Вирівнюємо елементи по вертикалі */
+    font-size: 24px; /* Розмір іконки */
+    margin-right: 10px; 
+}
+
+
+
+
+
+
+
+
